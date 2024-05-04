@@ -1,0 +1,55 @@
+<div class="container mt-5">
+  <h1>Angular 14 | New Features | Demo</h1>
+  <div
+    class="btn-group"
+    role="group"
+    aria-label="Basic checkbox toggle button group"
+  >
+    <input
+      id="home"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="home"
+      routerLinkActive="router-link-active"
+      autocomplete="off"
+      checked
+    />
+    <label for="home" class="btn btn-outline-primary">Home</label>
+    <input
+      id="personal"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="personal"
+      autocomplete="off"
+    />
+    <label for="personal" class="btn btn-outline-primary"
+      >Personal Information</label
+    >
+    <input
+      id="project"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="login"
+      autocomplete="off"
+    />
+    <label for="project" class="btn btn-outline-primary"
+      >Login Info</label
+    >
+    <input
+      id="Registration_page"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="Registration"
+      autocomplete="off"
+    />
+    <label for="Registration_page" class="btn btn-outline-primary"
+      >Registation Detail</label
+    >
+  </div>
+  <hr />
+  <router-outlet></router-outlet>
+</div>

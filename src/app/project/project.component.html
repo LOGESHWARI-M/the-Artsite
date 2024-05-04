@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <style>
+        body, .signin {
+            background-color: #000000;
+            font-family: 'Papyrus', sans-serif;
+            color: #DC143C;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        .login {
+            position: relative;
+            height: 560px;
+            width: 405px;
+            margin: auto;
+            padding: 60px 60px;
+            background: url(https://baslangicnoktasi.org/wp-content/uploads/2019/02/Digital-Arts-in-a-Digital-Age-1140x538.png) no-repeat center center #505050;
+            background-size: cover;
+            box-shadow: 0px 30px 60px -5px #DC143C;
+        }
+        form {
+            padding-top: 80px;
+        }
+        .active {
+            border-bottom: 2px solid #000000;
+        }
+        .nonactive {
+            color: #DC143C;
+        }
+        h2 {
+            padding-left: 12px;
+            font-size: 22px;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+            letter-spacing: 2px;
+            display: inline-block;
+            font-weight: 100;
+        }
+        h2:first-child {
+            padding-left: 0px;
+        }
+        span {
+            text-transform: uppercase;
+            font-size: 12px;
+            opacity: 0.4;
+            display: inline-block;
+            position: relative;
+            top: -65px;
+            transition: all 0.5s ease-in-out;
+        }
+        .text {
+            border: none;
+            width: 89%;
+            padding: 10px 20px;
+            display: block;
+            height: 15px;
+            border-radius: 20px;
+            background: #DC143C;
+            border: 2px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2 class="active">Sign In</h2>
+        <form>
+            <input type="text" class="text" name="username">
+            <span>Username</span> <br> <br>
+            <input type="password" class="text" name="password">
+            <span>Password</span> <br>
+            <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
+            <label for="checkbox-1-1">Keep me Signed in</label>
+            <button class="signin">Sign In</button>
+            <hr>
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+</html>
